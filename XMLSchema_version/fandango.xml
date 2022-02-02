@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<Theaters>
+	<Theater Category = "AMC Webster 12">
+        <Name>AMC Webster 12</Name>
+        <Address>
+            <Street>2190 Empire Blvd</Street>
+            <City>Webster</City>
+            <State>NY</State>
+            <Zipcode>14580</Zipcode>
+        </Address>
+        <Map>Map</Map>
+        <Amenities>Amenities</Amenities>
+        <Ticket>
+            <Image>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="posters/image1.png"/>                                                  
+                </html>
+            </Image>
+            <Image>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="posters/image2.png"/>                                                  
+                </html>
+            </Image>
+        </Ticket>
+        <Movies>
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/TheSuicideSquad.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>The Suicide Squad</Title>
+                <Release_year>2021</Release_year>
+                <Rating>R</Rating>
+                <Duration>2hr 12min</Duration>
+                <Genre>Action/Adventure</Genre>
+                <Instruction>Select a Movie Time to Buy Standard Showtimes</Instruction>
+                <Features>
+                    <Feature>Reserved Seating </Feature>
+                    <Feature>Closed Caption </Feature>
+                    <Feature>Accessibility Device Available </Feature>
+                    <Feature>Recliner Seats</Feature>
+                </Features>
+                <Time>
+                    <Slot>2:30pm</Slot>
+                    <Slot>5:45pm</Slot>
+                    <Slot>9:00pm</Slot>
+                </Time>            
+            </Movie>
+
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/NightHouse.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>The Night House</Title>
+                <Release_year>2021</Release_year>                
+                <Rating>R</Rating>
+                <Duration>1hr 48min</Duration>
+                <Genre>Horror,Suspense/Thriller</Genre>
+                <Instruction>Select a Movie Time to Buy Standard Showtimes</Instruction>
+                <Features>
+                    <Feature>Reserved Seating </Feature>
+                    <Feature>Closed Caption </Feature>
+                    <Feature>Accessibility Device Available </Feature>
+                    <Feature>Recliner Seats</Feature>
+                </Features>
+                <Time>
+                    <Slot>2:00pm</Slot>
+                    <Slot>4:45pm</Slot>
+                </Time>                
+            </Movie>
+
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/Respect.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>Respect</Title>
+                <Release_year>2021</Release_year>                
+                <Rating>PG-13</Rating>
+                <Duration>2hr 25min</Duration>                
+                <Genre>Drama, Music/Performing Arts</Genre>
+                <Instruction>Select a Movie Time to Buy Standard Showtimes</Instruction>                                
+                <Features>
+                    <Feature>Reserved Seating </Feature>
+                    <Feature>Closed Caption </Feature>
+                    <Feature>Accessibility Device Available </Feature>
+                    <Feature>Recliner Seats</Feature>
+                </Features>
+                <Time>
+                    <Slot>5:00pm</Slot>
+                </Time>                
+            </Movie>
+        </Movies>
+    </Theater>
+
+
+
+    <Theater Category = "Movies 10">
+        <Name>Movies 10</Name>
+        <Address> 
+            <Street>2609 West Henrietta Road</Street>
+            <City>Rochester</City>
+            <State>NY</State>
+            <Zipcode>14623</Zipcode>
+        </Address> 
+        <Map>Map</Map>
+        <Amenities>Amenities</Amenities>
+        <Ticket>
+            <Image>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="posters/image1.png" />                                                  
+                </html>
+            </Image>
+            <Image>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="posters/image2.png" />                                                  
+                </html>
+            </Image>
+        </Ticket>
+
+        <Movies>
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/GodzillaVSKong_InTheaters.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>Godzillla vs. Kong</Title>
+                <Release_year>2021</Release_year>                
+                <Rating>PG-13</Rating>
+                <Duration>1hr 53min</Duration>
+                <Genre>Action/Adventure, Sci-Fi/Fantasy</Genre>
+                <Instruction>Select a movie time to buy Digital 3D Showtimes</Instruction>
+                <Features>        
+                    <Feature>Digital 3D</Feature>                    
+                </Features>
+                <Time>
+                    <Slot>7:40pm</Slot>
+                </Time>                
+            </Movie>
+
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/Cruella.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>Cruella</Title>
+                <Release_year>2021</Release_year>                
+                <Rating>PG-13</Rating>
+                <Duration>2hr 14min</Duration>
+                <Genre>Comedy, Family, Suspense/Thriller</Genre>
+                <Instruction>Select a Movie Time to Buy Standard Showtimes</Instruction>
+                <Features>        
+                    <Feature>Photosensitivity</Feature>
+                </Features>
+                <Time>
+                    <Slot>4:20pm</Slot>
+                    <Slot>7:20pm</Slot>
+                </Time>
+            </Movie>
+
+            <Movie>
+                <Poster>
+                    <html xmlns="http://www.w3.org/1999/xhtml">
+                        <img src="posters/WizofOzIMAX73.jpeg" />                                                  
+                    </html>
+                </Poster>
+                <Title>The Wizard of OZ 3D</Title>
+                <Release_year>2021</Release_year>                
+                <Rating>PG-13</Rating>
+                <Duration>1hr 41min</Duration>                
+                <Genre>3D, Music/Performing Arts, Sci-Fi/Fantasy</Genre>
+                <Instruction>Select a Movie Time to Buy Standard Showtimes</Instruction>
+                <Features>        
+                    <Feature>Digital 3D</Feature>
+                </Features>
+                <Time>
+                    <Slot>5:10pm</Slot>
+                </Time>                
+            </Movie>
+        </Movies>
+    </Theater>
+</Theaters>

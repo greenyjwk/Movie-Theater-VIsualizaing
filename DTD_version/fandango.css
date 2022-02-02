@@ -1,0 +1,163 @@
+Theaters {
+    color: black;
+    background-color : beige;
+    width: 100%;
+    text-align: center;
+}
+
+Time {
+
+    display: block;
+    width: 360px;
+    padding: 30px;
+    margin: 10px;
+    height: 25px;
+    text-align: left;   
+}
+
+Slot{
+    background-color: gold;
+    width: 100px;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+Movies {
+    border: 1px solid black; 
+    display: block;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    background-color: rgb(44, 15, 44);
+    text-align: center;
+}
+
+Movie {
+    border: 1px solid black; 
+    display: inline-block;
+    margin: 10px;
+    height: auto;
+    width: 1000px;
+    background-color: beige;
+    position: relative;
+}
+
+Poster img {
+    width:175px;
+    height: auto;
+    float: right; 
+    padding: 30px;
+}
+
+Title {
+    font-size: 25px;
+    float: left;
+    width: auto;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+    display: block;
+}
+
+Release_year {
+    font-size: 15px;
+    color: white;
+    display:inline-block;
+    width: 50px;
+    padding: 5px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+Instruction {
+    color: grey;
+    font-size: 15px;
+    display: block;
+    width: 360px;
+    padding: 5px;
+    margin: 10px;
+    height: 25px;
+    text-align: left;
+    
+}
+
+Features {
+    display: block;
+    width: 500px;
+    padding: 5px;
+    margin: 10px;
+    height: 20px;
+    text-align: left;   
+}
+
+Feature {
+    font-size: 15px;
+    color: blue;
+}
+
+Image img {
+    width: 25px;
+    height: auto;
+    padding: 1px;
+    display:inline-block;   
+}
+
+Name {
+    font-size: 35px;
+    color: white;
+    background-color: black;
+    display:block;
+    width: auto;
+    border: 1px solid black; 
+    padding: 25px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+}
+
+Address {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    display:block;
+    width: auto;
+    border: 1px solid black; 
+    padding: 20px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+}
+
+Ticket {
+    display: block;
+    margin: 0px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+Map, Amenities {
+    font-size: 15px;
+}
+
+Rating {
+    font-size: 15px;
+    color: red;
+    display:inline-block;
+    width: 35px;
+    padding: 2px;
+    margin: 10px;
+    height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+Duration {
+    color: green;
+}

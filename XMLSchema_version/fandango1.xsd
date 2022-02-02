@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="fandango2.xsd" namespace="http://www.w3.org/1999/xhtml" /> <!--reference to fandango2.xsd-->
+  <xs:element name="Theaters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Theater">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Street" type="xs:string" />
+                    <xs:element name="City" type="xs:string" />
+                    <xs:element name="State" type="xs:string" />
+                    <xs:element name="Zipcode" type="xs:unsignedShort" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Map" type="xs:string" />
+              <xs:element name="Amenities" type="xs:string" />
+              <xs:element name="Ticket">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Image">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element xmlns:q1="http://www.w3.org/1999/xhtml" ref="q1:html" /> <!--links to another schema file-->
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Movies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Movie">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Poster">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element xmlns:q2="http://www.w3.org/1999/xhtml" ref="q2:html" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Title" type="xs:string" />
+                          <xs:element name="Release_year" type="xs:unsignedShort" />
+                          <xs:element name="Rating" type="xs:string" />
+                          <xs:element name="Duration" type="xs:string" />
+                          <xs:element name="Genre" type="xs:string" />
+                          <xs:element name="Instruction" type="xs:string" />
+                          <xs:element name="Features">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="Feature" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Time">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="Slot">
+                                  <xs:simpleType>
+                                    <xs:restriction base = "xs:string">
+                                      <xs:pattern value = "(1[012]|[1-9]):[0-5][0-9](am|pm)"/> <!--time validation-->
+                                    </xs:restriction>
+                                  </xs:simpleType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Category" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
